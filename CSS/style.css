@@ -18,13 +18,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    filter: brightness(60%);
 }
 .hero-content {
     position: relative;
     margin: auto;
     align-items: center;
-    color: white;
+    color: white
 }
 .logo img{
     position: relative;
@@ -37,4 +36,15 @@ h1 {
 }
 h6 {
     text-align: center;
+    padding-bottom: 250px;
+}
+
+.mouse img{
+    position: relative;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+img {
+    padding: 50px;
 }
