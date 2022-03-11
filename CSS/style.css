@@ -81,3 +81,11 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.description img{
+    display: inline-flex;
+    padding: 50px;
+}
+h2 {
+    text-align: center;
+}
