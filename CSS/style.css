@@ -1,17 +1,13 @@
-
-.container-fluid {
-    padding:0;
-}
 body {
     margin: 0;
     padding: 0;
 }
-.hero {
+/* .hero {
     position: relative;
     width: 100vw;
     height: 100vh;
-}
-.hero::before {
+} */
+/* .hero::before {
     content: "";
     position: absolute;
     top: 0;
@@ -22,8 +18,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-}
-.hero-content {
+} */
+/* .hero-content {
     position: relative;
     margin: auto;
     align-items: center;
@@ -34,7 +30,21 @@ body {
     top: 50%; 
     left: 50%;
     transform: translate(-50%, -50%)
+} */
+.hero-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  
 }
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
 h1 {
     text-align: center;
 }
@@ -65,9 +75,9 @@ img {
   
 }
 
-.services-contents {
+.services-content {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
