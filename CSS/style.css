@@ -124,6 +124,7 @@ h2 {
 
 #main-row {
     background-image: url("../images/c_image.jpg");
+    
 }
 
 #mc-NAME, #mc-Email, #mc-MESSAGE {
@@ -140,6 +141,12 @@ h2 {
 
 .btn {
     background: none;
+}
+
+.footer {
+    padding: 20px;
+    margin-left: 30%;
+    text-align: center;
 }
 
 
