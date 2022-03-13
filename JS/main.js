@@ -4,9 +4,33 @@ $("#work1").hover(function() {
   $("#work1").css("filter","brightness(50%)");
   $("#div1").toggle();
 });
-$("#work1").hover(function() {
-  $("#work1").css("filter","brightness(50%)");
-  $("#div1").toggle();
+$("#work2").hover(function() {
+  $("#work2").css("filter","brightness(50%)");
+  $("#div2").toggle();
+});
+$("#work3").hover(function() {
+  $("#work3").css("filter","brightness(50%)");
+  $("#div3").toggle();
+});
+$("#work4").hover(function() {
+  $("#work4").css("filter","brightness(50%)");
+  $("#div4").toggle();
+});
+$("#work5").hover(function() {
+  $("#work5").css("filter","brightness(50%)");
+  $("#div5").toggle();
+});
+$("#work6").hover(function() {
+  $("#work6").css("filter","brightness(50%)");
+  $("#div6").toggle();
+});
+$("#work7").hover(function() {
+  $("#work7").css("filter","brightness(50%)");
+  $("#div7").toggle();
+});
+$("#work8").hover(function() {
+  $("#work8").css("filter","brightness(50%)");
+  $("#div8").toggle();
 });
 
 });
