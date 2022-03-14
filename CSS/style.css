@@ -93,9 +93,19 @@ h2 {
     position: relative;
     top: 250px;
 }
+
 .pdevelopment {
     display: none;
+    position: relative;
+    bottom: 250px;
+    text-align: center;
 }
+
+.pdevelopment h6 {
+    position: relative;
+    top: 250px;
+}
+
 .pproduct {
     display: none;
 }
