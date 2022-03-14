@@ -35,8 +35,7 @@ $("#work8").hover(function() {
 
 });
 
-
-
+// Toggle What-We-Do-Section
 $(document).ready(function() {
   $("#image1").click(function() {
     $("#image1").toggle();
@@ -73,7 +72,7 @@ $(document).ready(function() {
 
 });
 
-
+// Function that takes in user input and gives them feedback
 function formSubmit() {
   let name = document.getElementById("mc-NAME").value;
   let email = document. getElementById("mc-Email").value;
