@@ -115,15 +115,19 @@ h2 {
 
 #mc-NAME, #mc-Email, #mc-MESSAGE {
     background: none;
+    color: white;
 }
 
 .contact {
     margin-left: 15%;
     color: white;
 }
-.form-group {
+  
+::placeholder {
     color: white;
 }
+  
+
 .hh {
     text-align: center;
     color: white;
@@ -145,6 +149,8 @@ h2 {
     justify-content: space-evenly;
 }
 
+
+
 .theme {
     display: flex;
     justify-content: space-evenly;
@@ -154,5 +160,29 @@ h2 {
     display: flex;
     justify-content: space-evenly;
 }
+
+.visible {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.visible h6 {
+    padding-top: 20px;
+}
+
+.what-services {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.what-services h3 {
+    text-align: center;
+}
+
 
 
